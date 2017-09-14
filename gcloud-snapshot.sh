@@ -19,7 +19,7 @@ export PATH=$PATH:/usr/local/bin/:/usr/bin
 #
 
 usage() {
-  echo -e "\nUsage: $0 [-d <days>]" 1>&2
+  echo -e "\nUsage: $0 [-d 1]" 1>&2
   echo -e "\nOptions:\n"
   echo -e "    -d    Number of days to keep snapshots.  Snapshots older than this number deleted."
   echo -e "          Default if not set: 7 [OPTIONAL]"
